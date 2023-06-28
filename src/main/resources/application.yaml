@@ -1,0 +1,15 @@
+spring:
+   datasource:
+      username: gym_waitlist
+      password: gym_waitlist
+      url: jdbc:mysql://localhost:3306/gym_waitlist
+      
+   jpa:
+     hibernate:
+           ddl-auto: update
+     show-sql: true
+     defer-datasource-initialization: true
+     
+   sql:
+     init:
+           mode: always
